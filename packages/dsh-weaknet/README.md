@@ -1,5 +1,7 @@
 # DSH Weak Network Tuning
 
+[![npm](https://img.shields.io/npm/v/dsh-weaknet.svg)](https://www.npmjs.com/package/dsh-weaknet)
+
 > 中文摘要：握手 15s→60s、Gateway 心跳 2s→15s、WebSocket permessage-deflate、HTTP Brotli 优先、keep-alive 5s→30s。安装：`dsh plugin --profile web add dsh-weaknet`。
 
 Keeps the Harness Web UI usable on high-latency or lossy links. Three layers,

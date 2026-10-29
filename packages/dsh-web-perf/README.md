@@ -1,5 +1,7 @@
 # DSH Web Performance
 
+[![npm](https://img.shields.io/npm/v/dsh-web-perf.svg)](https://www.npmjs.com/package/dsh-web-perf)
+
 > 中文摘要：哈希资源一年不可变缓存；客户端包内 3.4 MB 内联插图外置、按需加载。安装：`dsh plugin --profile web add dsh-web-perf`。
 
 Reduces the boot payload and makes repeat loads cheap.

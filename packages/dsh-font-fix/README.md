@@ -1,5 +1,7 @@
 # DSH Web Font Fix
 
+[![npm](https://img.shields.io/npm/v/dsh-font-fix.svg)](https://www.npmjs.com/package/dsh-font-fix)
+
 > 中文摘要：恢复系统字体栈、移除 Montserrat、关闭 antialiased 平滑，解决 PingFang SC 笔画变细。安装：`dsh plugin --profile web add dsh-font-fix`。
 
 A persistent DSH bundle that repairs the Harness Web UI's typography. Every

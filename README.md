@@ -1,12 +1,16 @@
 # DSH Web 插件集
 
+[![dsh-font-fix](https://img.shields.io/npm/v/dsh-font-fix.svg)](https://www.npmjs.com/package/dsh-font-fix)
+[![dsh-weaknet](https://img.shields.io/npm/v/dsh-weaknet.svg)](https://www.npmjs.com/package/dsh-weaknet)
+[![dsh-web-perf](https://img.shields.io/npm/v/dsh-web-perf.svg)](https://www.npmjs.com/package/dsh-web-perf)
+
 三个针对 **DeepSeek Harness (DSH) Web 界面** 的插件：修字体、扛弱网、降资源占用。每个插件都是标准的 `dsh.bundle`，通过 npm 安装，随 DSH 的插件系统启停，不修改 DSH 源码。
 
 | npm 包 | 解决什么问题 | 一句话效果 |
 | --- | --- | --- |
-| [`dsh-font-fix`](packages/dsh-font-fix) | antialiased 让 PingFang SC 笔画变细、品牌字体 Montserrat 混入界面 | 统一系统字体栈，14px/22px，关闭 antialiased，移除 Montserrat |
-| [`dsh-weaknet`](packages/dsh-weaknet) | 高延迟/丢包下握手超时、心跳误杀连接、数据不压缩 | 握手 15s→60s，心跳 2s→15s，WebSocket 帧压缩，HTTP Brotli，连接复用 30s |
-| [`dsh-web-perf`](packages/dsh-web-perf) | 首屏要拉 9 MB+ 客户端模块，静态资源没有缓存策略 | 哈希资源一年不可变缓存，3.4 MB 内联插图外置按需加载 |
+| [`dsh-font-fix`](https://www.npmjs.com/package/dsh-font-fix) | antialiased 让 PingFang SC 笔画变细、品牌字体 Montserrat 混入界面 | 统一系统字体栈，14px/22px，关闭 antialiased，移除 Montserrat |
+| [`dsh-weaknet`](https://www.npmjs.com/package/dsh-weaknet) | 高延迟/丢包下握手超时、心跳误杀连接、数据不压缩 | 握手 15s→60s，心跳 2s→15s，WebSocket 帧压缩，HTTP Brotli，连接复用 30s |
+| [`dsh-web-perf`](https://www.npmjs.com/package/dsh-web-perf) | 首屏要拉 9 MB+ 客户端模块，静态资源没有缓存策略 | 哈希资源一年不可变缓存，3.4 MB 内联插图外置按需加载 |
 
 ## 环境要求
 
