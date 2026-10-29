@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Weak Network Tuning",
+    "description": "Keeps DSH Web usable on high-latency links: a 60 s handshake window, gentler reconnect backoff, 30 s connection reuse, Brotli HTTP responses and compressed WebSocket frames."
+  }
+}

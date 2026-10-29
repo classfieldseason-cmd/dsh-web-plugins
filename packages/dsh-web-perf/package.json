@@ -1,0 +1,55 @@
+{
+  "name": "dsh-web-perf",
+  "version": "1.0.0",
+  "description": "DSH Web 性能优化插件：为内容哈希资源启用不可变缓存，并把客户端包内的 base64 插图外置，缩小首屏体积。",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./apply": "./apply.mjs",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "apply.mjs",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node test/run-tests.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "performance",
+    "cache",
+    "web",
+    "assets"
+  ],
+  "author": "classfield <classfieldseason@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classfieldseason-cmd/dsh-web-plugins.git",
+    "directory": "packages/dsh-web-perf"
+  },
+  "homepage": "https://github.com/classfieldseason-cmd/dsh-web-plugins/tree/main/packages/dsh-web-perf",
+  "bugs": {
+    "url": "https://github.com/classfieldseason-cmd/dsh-web-plugins/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

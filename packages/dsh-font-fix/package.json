@@ -1,0 +1,55 @@
+{
+  "name": "dsh-font-fix",
+  "version": "1.0.0",
+  "description": "DSH Web 字体修复插件：恢复系统字体栈、移除 Montserrat 品牌字体并关闭 antialiased 平滑，避免 PingFang SC 笔画变细。",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./apply": "./apply.mjs",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "apply.mjs",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node test/run-tests.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "font",
+    "typography",
+    "pingfang-sc",
+    "web"
+  ],
+  "author": "classfield <classfieldseason@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classfieldseason-cmd/dsh-web-plugins.git",
+    "directory": "packages/dsh-font-fix"
+  },
+  "homepage": "https://github.com/classfieldseason-cmd/dsh-web-plugins/tree/main/packages/dsh-font-fix",
+  "bugs": {
+    "url": "https://github.com/classfieldseason-cmd/dsh-web-plugins/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

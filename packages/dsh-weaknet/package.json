@@ -1,0 +1,56 @@
+{
+  "name": "dsh-weaknet",
+  "version": "1.0.0",
+  "description": "DSH Web 弱网优化插件：延长握手窗口、放宽重连退避、压缩 HTTP 与 WebSocket 数据并复用连接。",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./apply": "./apply.mjs",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "apply.mjs",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node test/run-tests.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "weak-network",
+    "high-latency",
+    "brotli",
+    "websocket",
+    "compression"
+  ],
+  "author": "classfield <classfieldseason@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classfieldseason-cmd/dsh-web-plugins.git",
+    "directory": "packages/dsh-weaknet"
+  },
+  "homepage": "https://github.com/classfieldseason-cmd/dsh-web-plugins/tree/main/packages/dsh-weaknet",
+  "bugs": {
+    "url": "https://github.com/classfieldseason-cmd/dsh-web-plugins/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

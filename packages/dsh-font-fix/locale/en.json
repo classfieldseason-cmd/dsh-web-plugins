@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Web Font Fix",
+    "description": "Restores the system UI font stack, removes the Montserrat brand font, and disables antialiased smoothing so PingFang SC keeps its normal stroke weight."
+  }
+}

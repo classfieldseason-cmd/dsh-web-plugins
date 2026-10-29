@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Web Performance",
+    "description": "Caches content-hashed assets immutably and extracts inline artwork from the client bundles, shrinking the boot payload and deferring image work."
+  }
+}

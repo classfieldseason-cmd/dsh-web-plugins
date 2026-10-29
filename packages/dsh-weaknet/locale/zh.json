@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "弱网优化",
+    "description": "针对高延迟链路优化 DSH Web：握手窗口延长到 60 秒、更温和的重连退避、30 秒连接复用、HTTP Brotli 压缩与 WebSocket 帧压缩。"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "dsh-web-plugins",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DeepSeek Harness Web plugins: font repair, weak-network tuning, and frontend performance",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "publish:all": "npm publish --workspaces --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classfieldseason-cmd/dsh-web-plugins.git"
+  },
+  "homepage": "https://github.com/classfieldseason-cmd/dsh-web-plugins",
+  "bugs": {
+    "url": "https://github.com/classfieldseason-cmd/dsh-web-plugins/issues"
+  },
+  "author": "classfield <classfieldseason@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

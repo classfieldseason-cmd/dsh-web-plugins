@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Web 字体修复",
+    "description": "恢复系统字体栈、移除 Montserrat 品牌字体并关闭 antialiased 平滑，避免 PingFang SC 笔画变细。"
+  }
+}
